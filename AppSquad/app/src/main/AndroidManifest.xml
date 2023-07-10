@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppSquad"
+        tools:targetApi="31">
+        <activity
+            android:name=".FreelanceScreen"
+            android:exported="true">
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserApplications"
+            android:exported="false" />
+        <activity
+            android:name=".EditAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".EditApplication"
+            android:exported="false" />
+        <activity
+            android:name=".EditJob"
+            android:exported="false" />
+        <activity
+            android:name=".AllGigs"
+            android:exported="false" />
+        <activity
+            android:name=".JobApplications"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.JobApplications"
+            android:exported="false"
+            android:label="@string/title_activity_job_applications" />
+        <activity
+            android:name=".AllJobs"
+            android:exported="false" />
+        <activity
+            android:name=".ApplyJobForm"
+            android:exported="false" />
+        <activity
+            android:name=".EditGig"
+            android:exported="false" />
+        <activity
+            android:name=".UserGigs"
+            android:exported="false" />
+        <activity
+            android:name=".CreateGig"
+            android:exported="false" />
+        <activity
+            android:name=".UserDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".AddUser"
+            android:exported="false" />
+        <activity
+            android:name=".UserLogin"
+            android:exported="false" />
+        <activity
+            android:name=".CompanyJobs"
+            android:exported="false" />
+        <activity
+            android:name=".CreateJob"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".PendingNotice"
+            android:exported="false" />
+        <activity
+            android:name=".ApprovalPendingNotice"
+            android:exported="false" />
+        <activity
+            android:name=".EditCompanyProfile"
+            android:exported="false" />
+        <activity
+            android:name=".AdminProfile"
+            android:exported="false" />
+        <activity
+            android:name=".AddAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".LoginAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".CompanyDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".LoginChoose"
+            android:exported="false">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".CompanyProfile"
+            android:exported="false" />
+        <activity
+            android:name=".LoginCompany"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".AddCompany"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>

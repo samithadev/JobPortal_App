@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">AppSquad</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="txtEdit">Edit</string>
+    <string name="txtCompany">Company</string>
+    <string name="txtFreelance">Freelance</string>
+    <string name="txtRequest">Request</string>
+    <string name="txtRequests">Requests</string>
+    <string name="txtGoback">Go Back</string>
+    <string name="txtOpen">Open</string>
+    <string name="txtDashboard">Dashboard</string>
+    <string name="txtAdmin">Admin</string>
+    <string name="txtCompanies">Companies</string>
+    <string name="txtJobs">Jobs</string>
+    <string name="txtUsers">Users</string>
+    <string name="txtFreelancers">Free Lancers</string>
+    <string name="txtApprove">Approve</string>
+    <string name="txtReject">Reject</string>
+    <string name="txtViewFreelance">View FreeLance Requests</string>
+    <string name="txtViewCompany">View Company Requests</string>
+    <string name="txtProfile">Profile</string>
+    <string name="txtDelete">Delete</string>
+    <string name="txtNoJobs">No of Jobs</string>
+    <string name="txtNoApplicants">No of Applicants</string>
+    <string name="txtName">Name</string>
+    <string name="txtMyJobs">My Jobs</string>
+    <string name="txtCompanyProfile">Company Profile</string>
+    <string name="txtCreateJob">Create Job</string>
+    <string name="txtCreateCompany">Create Company</string>
+    <string name="txtCancel">Cancel</string>
+    <string name="txtSave">Save</string>
+    <string name="txtUser">User</string>
+    <string name="txtWelcome">Welcome to</string>
+    <string name="txtJobPortal">Job Portal</string>
+    <string name="txtContinue">Continue as a...</string>
+    <string name="txtGoLogin">Go Back to Login</string>
+    <string name="txtNotice">NOTICE!!</string>
+    <string name="txtLogout">Log Out</string>
+    <string name="title_activity_job_applications">JobApplications</string>
+</resources>
